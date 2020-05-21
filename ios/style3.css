@@ -1,0 +1,242 @@
+body, html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-weight: 400;
+    line-height: 2;
+    font-family: 'Playfair Display', serif;
+    color: blanchedalmond;
+    background-color: wheat;
+}
+
+
+.pimg1{
+    background-image: url(Images/Adriana_sunset_2.jpg);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+
+.pimg1-mob{
+    background-image: url(Images/adriana_golden_hour_1_49640080013_o.jpg);
+    height: 100%;
+    padding: 0;
+    padding-bottom: 50px;
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+
+@media  (max-width:1800px){
+    .pimg1{
+        display: none;
+    }
+   
+}
+
+@media (min-width: 1799px){
+    .pimg1-mob{
+        display: none;
+    }
+   
+}
+
+
+.pimg2{
+    background-image: url(Images/family.jpg);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+
+.pimg2-mob{
+    background-image: url(Images/family-mob.jpg);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+
+@media  (max-width:1800px){
+    .pimg2{
+        display: none;
+    }
+   
+}
+
+@media (min-width: 1799px){
+    .pimg2-mob{
+        display: none;
+    }
+   
+}
+
+
+
+.pimg3{
+    background-image: url(Images/Dayan_Proff_1.jpg);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+
+.pimg3-mob{
+    background-image: url(Images/dayan_mob.jpg);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+}
+
+@media  (max-width:1800px){
+    .pimg3{
+        display: none;
+    }
+   
+}
+
+@media (min-width: 1799px){
+    .pimg3-mob{
+        display: none;
+    }
+   
+}
+
+.pimg1, .pimg1-mob, .pimg2, .pimg2-mob, .pimg3, .pimg3-mob {
+    background-size: cover;
+}
+
+
+
+.section-light{
+    background-color: wheat;
+    color: black;
+    margin:0;
+    padding:30px;
+}
+
+.section-dark{
+    color:wheat;
+    background-color: black;
+    margin:0;
+    padding:30px;
+    text-align: center;
+}
+
+.section-light{
+    text-align: center;
+    opacity: 100%;
+}
+
+.ptext {
+    float: right;
+    padding-top:3%;
+    font-size: 200%;
+    padding-right: 5%;
+}
+
+.ptext .border {
+    background-color: #111;
+    color: white;
+    border-radius: 25px;
+    padding: 20px;
+    opacity: 60%;
+}
+
+
+.ptext2 {
+    float: left;
+    padding-top:3%;
+    font-size: 200%;
+    padding-left: 5%;
+}
+
+.ptext2 .border {
+    background-color: #111;
+    color: white;
+    border-radius: 25px;
+    padding: 20px;
+    opacity: 60%;
+}
+
+.myButton {
+	box-shadow: 0px 1px 0px 0px #1c1b18;
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	background-color:#eae0c2;
+	border-radius:15px;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-family: 'Playfair Display', serif;
+	font-size:17px;
+	font-weight:bold;
+	padding:3px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+	background-color:#ccc2a6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.image1{
+    background-image: url(Images/profil2_49637383427_o.jpg);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+
+}
+
+.image1-mob{
+    background-image: url(Images/profil_49637376057_o.jpg);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+
+@media  (max-width:800px){
+    .image1{
+        display: none;
+    }
+   
+}
+
+@media (min-width: 799px){
+    .image1-mob{
+        display: none;
+    }
+}
+
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+  }
+
